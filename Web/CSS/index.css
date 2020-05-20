@@ -1,0 +1,77 @@
+.title {
+    font-weight: Bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+.title#title1 {
+    color: rgb(234, 67, 53);
+}
+
+.title#title2 {
+    color: rgb(66, 133, 244);
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+#main-table {
+    margin-top: 2%;
+    text-align: center;
+    border-color: white;
+}
+
+div.search {
+    padding: 10px 0;
+}
+
+form {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+}
+
+input,
+button {
+    border: none;
+    outline: none;
+}
+
+input {
+    width: 100%;
+    height: 42px;
+    padding-left: 13px;
+}
+
+button {
+    height: 42px;
+    width: 42px;
+    cursor: pointer;
+    position: absolute;
+}
+
+
+/*搜索框*/
+
+.input input {
+    border: 2px solid #007fe7;
+    background-color: white;
+    border-radius: 5px;
+    top: 0;
+    right: 0;
+}
+
+.input button {
+    background: #007fe7;
+    border-radius: 0 5px 5px 0;
+    width: 60px;
+    top: 0;
+    right: 0;
+}
+
+.input button:before {
+    content: "搜索";
+    font-size: 13px;
+    color: #F9F0DA;
+}
